@@ -12,5 +12,11 @@
    $git init
 
 4、添加一个文件B到版本库
-   $git add "文件B"    （PS：以空格键隔开 可以添加多个文件）
-   $git commit -m "对文件B的说明"   （commit可以一次性提交多个add的文件）
+   $git add 文件B    （PS：以空格键隔开 可以添加多个文件）
+   $git commit -m "对文件B(或者所以add的文件)的说明"   （commit可以一次性提交多个add的文件）
+
+5、$git status命令可以让我们时刻掌握仓库当前的状态
+   $git diff 文件B 可以看出对文件B做了什么修改
+
+6、提交修改和提交新文件到版本库的步骤是一样的
+   $git add 修改的文件B   (在$git commit之前可以使用$git status查看当前版本库的状态，作了什么修改)
