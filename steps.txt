@@ -1,0 +1,16 @@
+1、声明本机器的name和email(不然不能向仓库提交(commit)本地文件)
+   $ git config --global user.name "Your Name"
+   $ git config --global user.email "email@example.com"
+
+
+2、创建空目录
+   $ mkdir "目录名称A"
+   $ cd "目录名称A"   //打开这个目录
+   $ pwd             //显示当前目录
+
+3、将这个空目录变成git可以管理的仓库
+   $git init
+
+4、添加一个文件B到版本库
+   $git add "文件B"    （PS：以空格键隔开 可以添加多个文件）
+   $git commit -m "对文件B的说明"   （commit可以一次性提交多个add的文件）
