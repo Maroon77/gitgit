@@ -20,3 +20,7 @@
 
 6、提交修改和提交新文件到版本库的步骤是一样的
    $git add 修改的文件B   (在$git commit之前可以使用$git status查看当前版本库的状态，作了什么修改)
+   $git commit -m "描述"
+   (PS:要随时掌握工作区的状态，使用git status命令。
+    如果git status告诉你有文件被修改过，用git diff可以查看修改内容。
+    )
